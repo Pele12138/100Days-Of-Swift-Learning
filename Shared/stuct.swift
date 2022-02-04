@@ -7,18 +7,22 @@ struct  redEnvelop {
 	}
 }
 
-let mother = redEnvelop(name: "Mother", amount: 600 )
-mother.printSummary()
+struct tigerYear {
+	var envelops : [redEnvelop] = []
+	var total = 10 {
+		didSet {
+			print("\(oldValue) -> \(total) ")
+		}
+	}
+	
+}
 
-var tiger = [
+var tg = tigerYear()
+var env : [redEnvelop] = [
 	redEnvelop(name: "Mother", amount: 600) ,
 	redEnvelop(name: "Grandma", amount: 300),
 	redEnvelop(name: "Uncle", amount: 200),
 ]
+tg.envelops = env
 
-tiger.append(redEnvelop(name: "Grandpa", amount: 200))
-
-for x in tiger{
-	x.printSummary()}
-
-print(tiger)
+tg.total = 20
