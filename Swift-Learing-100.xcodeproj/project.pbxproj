@@ -7,24 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A126EB7F27BBCE1A008C70EB /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126EB7E27BBCE1A008C70EB /* File.swift */; };
+		A126EB8027BBCE1A008C70EB /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126EB7E27BBCE1A008C70EB /* File.swift */; };
+		A126EB8227BBCE88008C70EB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126EB8127BBCE88008C70EB /* main.swift */; };
+		A126EB8327BBCE88008C70EB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A126EB8127BBCE88008C70EB /* main.swift */; };
 		A1D1D38927A03C3A00160DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D1D37727A03C3A00160DE2 /* Assets.xcassets */; };
 		A1D1D38A27A03C3A00160DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D1D37727A03C3A00160DE2 /* Assets.xcassets */; };
 		A1F319F127A8194700C65772 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F319F027A8194700C65772 /* test.swift */; };
 		A1F319F227A8194700C65772 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F319F027A8194700C65772 /* test.swift */; };
 		A1F319F427A81A4200C65772 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F319F327A81A4200C65772 /* SwiftUIView.swift */; };
 		A1F319F527A81A4200C65772 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F319F327A81A4200C65772 /* SwiftUIView.swift */; };
-		A1F319F727A81A8100C65772 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F319F627A81A8100C65772 /* main.swift */; };
-		A1F319F827A81A8100C65772 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F319F627A81A8100C65772 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A126EB7E27BBCE1A008C70EB /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		A126EB8127BBCE88008C70EB /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		A1D1D37727A03C3A00160DE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1D1D37C27A03C3A00160DE2 /* Swift-Learing-100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Learing-100.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D1D38227A03C3A00160DE2 /* Swift-Learing-100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Learing-100.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D1D38427A03C3A00160DE2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		A1F319F027A8194700C65772 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		A1F319F327A81A4200C65772 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
-		A1F319F627A81A8100C65772 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				A1F319F327A81A4200C65772 /* SwiftUIView.swift */,
-				A1F319F627A81A8100C65772 /* main.swift */,
+				A126EB7E27BBCE1A008C70EB /* File.swift */,
+				A126EB8127BBCE88008C70EB /* main.swift */,
 				A1D1D37427A03C3700160DE2 /* Shared */,
 				A1D1D38327A03C3A00160DE2 /* macOS */,
 				A1D1D37D27A03C3A00160DE2 /* Products */,
@@ -181,8 +185,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1F319F427A81A4200C65772 /* SwiftUIView.swift in Sources */,
+				A126EB7F27BBCE1A008C70EB /* File.swift in Sources */,
+				A126EB8227BBCE88008C70EB /* main.swift in Sources */,
 				A1F319F127A8194700C65772 /* test.swift in Sources */,
-				A1F319F727A81A8100C65772 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,8 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1F319F527A81A4200C65772 /* SwiftUIView.swift in Sources */,
+				A126EB8027BBCE1A008C70EB /* File.swift in Sources */,
+				A126EB8327BBCE88008C70EB /* main.swift in Sources */,
 				A1F319F227A8194700C65772 /* test.swift in Sources */,
-				A1F319F827A81A8100C65772 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
